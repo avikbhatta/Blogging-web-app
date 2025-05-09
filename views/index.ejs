@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <%- include("partials/header.ejs") %>
+    <div class="author">
+        <h1 class="author_heading">Blogs by Avik</h1>
+        <p class="author_body">Web dev and content writer</p>
+    </div>
+    <img src="/img/mainimg.png" alt="main image">
+
+    <section class="articles">
+        <h2 class="articles_heading"> Latest Posts</h2>
+        <ul class="article-ul">
+            <li>
+                <a href="#">
+                    <span>Post Title</span>
+                    <span class="date">Date</span>
+                </a>
+            </li>
+        </ul>
+    </section>
+    <%- include("partials/footer.ejs") %>
+
+
+    <script src="/js/script.js"></script>
+</body>
+</html>
