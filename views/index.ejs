@@ -7,12 +7,13 @@
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
+    <div class="container">
     <%- include("partials/header.ejs") %>
     <div class="author">
         <h1 class="author_heading">Blogs by Avik</h1>
-        <p class="author_body">Web dev and content writer</p>
+        <p class="author_body">Web developer and content writer</p>
     </div>
-    <img src="/img/mainimg.png" alt="main image">
+    <img src="/images/mainimage.png" alt="main image" class="main-img">
 
     <section class="articles">
         <h2 class="articles_heading"> Latest Posts</h2>
@@ -26,7 +27,7 @@
         </ul>
     </section>
     <%- include("partials/footer.ejs") %>
-
+</div>
 
     <script src="/js/script.js"></script>
 </body>
